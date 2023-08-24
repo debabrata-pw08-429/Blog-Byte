@@ -1,0 +1,136 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.highlight {
+  color: #0060ff;
+}
+
+.nav > div:nth-child(3) {
+  width: 11%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* .post .postImg {
+  border: 1px solid red;
+} */
+
+.post .postImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post .content {
+  /* border: 1px solid blue; */
+  object-fit: cover;
+}
+
+.post .content h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.register_form {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.register_form > button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.register_form > h1 {
+  color: rgb(50, 50, 50);
+  text-align: center;
+}
+
+.register_form > button:hover {
+  background-color: rgb(50, 50, 50);
+  color: aliceblue;
+}
+
+.login_form {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.login_form > button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.login_form > h1 {
+  color: rgb(50, 50, 50);
+  text-align: center;
+}
+
+.login_form > button:hover {
+  background-color: rgb(50, 50, 50);
+  color: aliceblue;
+}
+
+.create_post {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.create_post > button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.create_post > h1 {
+  color: rgb(50, 50, 50);
+  text-align: center;
+}
+
+.create_post > button:hover {
+  background-color: rgb(50, 50, 50);
+  color: aliceblue;
+}
+
+.home > div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.home > div:nth-child(1) > button {
+  width: 60%;
+  margin: auto;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: rgb(216, 216, 216);
+  color: black;
+}
